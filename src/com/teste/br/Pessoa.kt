@@ -2,7 +2,7 @@ package com.teste.br
 
 class Pessoa {
 
-    
+
 
     var nome: String = "Henrique"
     var cpf: String = "123.123.123-00"
