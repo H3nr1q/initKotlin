@@ -1,26 +1,7 @@
 package com.teste.br
 
-class Pessoa {
+abstract class Pessoa (
+    val nome : String,
+    val cpf: String
+    )
 
-
-
-    var nome: String = "Henrique"
-    var cpf: String = "123.123.123-00"
-    private set
-
-
-    constructor()
-
-    fun pessoaInfo() = "$nome e $cpf"
-
-
-
-}
-
-
-fun main(){
-    val henrique = Pessoa()
-
-    println(henrique.pessoaInfo())
-
-}
